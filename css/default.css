@@ -198,10 +198,22 @@ nav{
     height:506px;
     margin-right:18px;
     font-size:16px;
+    position:relative;
+    overflow:hidden;
 }
+
+
 
 .item img{
     height:320px;
+    width:249px;
+    position:relative;
+    /* overflow:hidden; */
+}
+
+.item img:hover{
+    transform: scale(1.02);
+	transition: transform 500ms cubic-bezier(0.165, 0.84, 0.44, 1) 0ms;
 }
 
 .item_title{
@@ -371,4 +383,37 @@ nav{
 
 .type6, .type7{
     background :#f7f7f7;
+}
+
+.t7_title{
+    padding:79px 0 10px;
+    font-size:28px;
+    font-weight:700;
+    text-align:center;
+}
+.t7_sub{
+    font-size:16px;
+    font-weight:400;
+    text-align:center;
+    padding-bottom:35px;
+    color:#999;
+    line-height:20px;
+    
+}
+
+.sticker{
+    position:absolute;
+    top:0;
+    z-index:1;
+    background-color:rgb(189,118,225);
+    opacity: 0.9;
+    width:67.52px;
+    height:32px;
+    font-size:14px;
+    color:#ffffff;
+    font-weight:700;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
