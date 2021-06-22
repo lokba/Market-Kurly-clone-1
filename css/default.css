@@ -343,6 +343,7 @@ nav{
 .t4_banner{
     display: flex;
     justify-content: center;
+    margin-top:100px;
 }
 
 .t4_banner_content{
@@ -351,4 +352,19 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left:50px;
+    background-color:#f9eaea;
+    color:rgb(106,38,38);
+}
+
+.t4_content1{
+    font-size:28px;
+    font-weight:700;
+    line-height:38px;
+    
+}
+.t4_content2{
+    font-size:16px;
+    line-height:24px;
+    
 }
