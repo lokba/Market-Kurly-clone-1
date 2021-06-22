@@ -1,0 +1,62 @@
+#wrap{
+    width:100%;
+}
+
+header{
+    width:1050px;
+    margin:0 auto;
+}
+
+#userMenu{
+    display:flex;
+    justify-content: space-between;
+    height:36.99px;
+    align-items:center;
+}
+
+#userMenu a img{
+    width:135px;
+    height:21.99px;
+}
+
+#menu_lists{
+    display:flex;
+    font-size:12px;
+    /* align-items:center; */
+}
+
+#register{
+    padding:0 11px 0 10px;
+    color:#5f0080;
+}
+
+#register::after{
+    content:"";
+    float: right;
+    width: 1px;
+    height: 10px;
+    margin-left:11px;
+    background-color: #d8d8d8;
+}
+
+#login::after{
+    content:"";
+    float: right;
+    width: 1px;
+    height: 10px;
+    margin-left:11px;
+    background-color: #d8d8d8;
+    margin-right:11px;
+}
+
+#info{
+    display:flex;
+    align-items: center;
+}
+
+#info img{
+    width:7.99px;
+    margin-left:5px;
+    height:5px;
+    margin-top:-3px;
+}
