@@ -174,7 +174,58 @@ nav{
     justify-content: center;
 }
 
+.type1{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+}
 
+.title{
+    padding:79px 0 35px;
+    font-size:28px;
+    font-weight:700;
+    text-align:center;
+}
 
+.items_list{
+    display:flex;
+    justify-content: center;;
+}
 
+.item{
+    width:249px;
+    height:506px;
+    margin-right:18px;
+    font-size:16px;
+}
+
+.item img{
+    height:320px;
+}
+
+.item_title{
+    line-height:23px;
+    cursor:pointer;
+    margin:8px 0;
+}
+
+.rate{
+    color:#fa622f;
+    font-weight:800;
+    padding-right:8px;
+    line-height:20px;
+}
+
+.after_price{
+    font-weight:800;
+}
+
+.before_price{
+    padding-top:5px;
+    font-size: 14px;
+    text-decoration: line-through;
+    color:#999;
+    line-height: 18px;
+}
 
