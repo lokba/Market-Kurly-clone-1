@@ -188,9 +188,9 @@ nav{
     text-align:center;
 }
 
-.items_list{
+.t1_items_list{
     display:flex;
-    justify-content: center;;
+    justify-content: center;
 }
 
 .item{
@@ -229,3 +229,36 @@ nav{
     line-height: 18px;
 }
 
+.type2{
+    background :#f7f7f7;
+}
+
+.t2_items_list{
+    display:flex;
+    justify-content: center;
+}
+
+.t2_item{
+    width:338px;
+    height:538px;
+    margin-right:18px;
+    text-align:center;
+}
+.t2_item img{
+    width:338px;
+    height:338px;
+}
+
+.t2_title{
+    line-height:28px;
+    cursor:pointer;
+    font-size:18px;
+    margin:8px 0;
+    font-weight:700;
+}
+
+.t2_sub{
+    font-size:16px;
+    color:#999999;
+
+}
