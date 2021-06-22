@@ -60,3 +60,28 @@ header{
     height:5px;
     margin-top:-3px;
 }
+
+#logo{
+    display:flex;
+    justify-content: center;
+}
+
+#logo img{
+    width:103px;
+    height:79px;
+}
+
+nav{
+    display:flex;
+    width:1050px;
+    margin:0 auto;
+    justify-content: space-between;
+}
+
+#category{
+    display:flex;
+}
+
+#search{
+    display: flex;
+}
