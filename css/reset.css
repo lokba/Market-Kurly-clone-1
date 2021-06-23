@@ -18,6 +18,7 @@ time, mark, audio, video {
 	font: inherit;
     vertical-align: baseline;
     box-sizing: border-box;
+    font-family: noto sans;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -25,7 +26,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    color:#333333;
 }
 ol, ul,li {
 	list-style: none;
