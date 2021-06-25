@@ -265,6 +265,52 @@ nav{
     cursor: pointer;
 }
 
+.gnb_menu{
+    position:absolute;
+    left:0;
+    top:55px;
+    /* width:440px; */
+    z-index:200;
+    color:black;
+    border:1px solid #ddd;
+    background:white;
+    overflow:hidden;
+}
+.gnb_menu>ul>li{
+    display:flex;
+}
+.inner_menu{
+    display:flex;
+    width:219px;
+    height:39px;
+    align-items: center;
+    font-size:14px;
+    padding: 0 4px 0 10px;
+}
+.i_menu_img{
+    width:24px;
+    height:24px;
+    margin-right:10px;
+}
+
+.sub_menu{
+    width:219px;
+    z-index:500;
+    color:black;
+    display:none;
+    background:white;
+    overflow:hidden;
+    border-left:1px solid #ddd;
+}
+.sub_menu > li{
+    display:flex;
+    height:39px;
+    align-items: center;
+    font-size:14px;
+    padding: 0 4px 0 10px;
+    z-index:600;
+}
+
 .menu:hover{
     color:#5f0080;
     text-decoration: underline;
