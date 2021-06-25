@@ -537,7 +537,29 @@ nav{
 }
 
 
+.pageBtn{
+    display:flex;
+    justify-content: center;
+    margin-bottom:120px;
+    margin-top:38px;
+    font-size:12px;
+    font-weight:700;
+}
+.pageBtn >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:34px;
+    height:34px;
+    border:1px solid #ddd;
+}
 
+.pageBtn>div:hover{
+    background-color:#f7f7f7;
+}
+.btntxt{
+    padding-top:3px;
+}
 
 .t11_call{
     width:534px;
