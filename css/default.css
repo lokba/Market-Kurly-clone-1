@@ -130,11 +130,12 @@ nav{
     display:flex;
     font-size:16px;
     width:168px;
+    cursor:pointer;
 }
 
 #category:hover{
     color:#5f0080;
-    
+    font-weight: 700;
 }
 
 #category img{
@@ -161,6 +162,7 @@ nav{
     margin-left:14px;
 }
 
+
 #search input{
     width:242px;
     height:36px;
@@ -181,6 +183,7 @@ nav{
     position:absolute;
     right:3px;
     top:5px;
+    cursor: pointer;
     
 }
 
@@ -192,17 +195,81 @@ nav{
     top:10px;
 }
 
+#location{
+    height:55px;
+    width:70px;
+}
+
+.location_subinfo{
+    position: absolute;
+    z-index: 1;
+    right: 55px;
+    top:55px;
+    width:330px;
+    display:none;
+    padding: 20px 18px 19px 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align:left;
+    font-size:16px;
+    font-weight:700;
+    line-height:24px;
+}
+
+.location_subinfo span{
+    color:#5f0080;
+}
+
+.location_btn_box{
+    display:flex;
+    margin-top:17px;
+}
+.locationBtn{
+    font-size:12px;
+    text-align:center;
+    border-radius:3px;
+    line-height:32px;
+    border:1px solid #5f0080;
+    cursor:pointer;
+}
+
+.location_loginBtn{
+    width:104px;
+    color:#5f0080;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:7px;
+    
+}
+.location_addressBtn{
+    display:flex;
+    width:158px;
+    align-items: center;
+    justify-content: center;
+    background-color:#5f0080;
+    color:white;
+}
+
+.location_addressBtn img{
+    width:20px;
+    height:20px;
+}
+
 #cart img{
     position:absolute;
     width:36px;
     height:36px;
     right:0;
     top:10px;
+    cursor: pointer;
 }
 
 .menu:hover{
     color:#5f0080;
     text-decoration: underline;
+    text-underline-position: under;
+    font-weight:700;
 }
 
 .main_banner{
