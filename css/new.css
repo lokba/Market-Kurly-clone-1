@@ -338,23 +338,6 @@ nav{
     font-weight:700;
 }
 
-.bnr_lists{
-    width:100%;
-}
-
-.lists{
-    width:1050px;
-    margin:0 auto;
-    padding-bottom:120px;
-}
-
-.list{
-    width:1050px;
-    height:200px;
-    margin-bottom:10px;
-    cursor:pointer;
-}
-
 .type11{
     padding-top:29px;
     padding-bottom:20px;
@@ -362,8 +345,118 @@ nav{
     width:1050px;
     margin:0 auto;
     display:flex;
-    
 }
+
+.content{
+    width:100%;
+}
+
+.content_wrap{
+    width:1021px;
+    /* width:870px; */
+    margin:0 auto;
+    padding-top:26px;
+}
+
+.tit{
+    padding-bottom:10px;
+    height:50px;
+    display:flex;
+    align-items: flex-end;
+    font-size:14px;
+    font-weight:700;
+}
+
+.inner_info{
+    display:flex;
+    align-items: center;
+    font-size:12px;
+}
+
+.inner_txt{
+    width:870px;
+    height:28px;
+    display:flex;
+    align-items: center;
+}
+
+.inner_txt>span{
+    display:inline-block;
+    display:flex;
+    align-items: center;
+    width:67.97px;
+    height:28px;
+    padding-bottom:7px;
+    padding-left:12px;
+    border-bottom:1px solid #5f0080;
+    font-weight:700;
+    color:#5f0080;
+}
+
+.ctrl{
+    width:100px;
+    height:33px;
+    display:flex;
+    justify-content: flex-end;
+    cursor:pointer;
+    padding-top:5px;
+    position:relative;
+}
+
+.ctrl_tit{
+    font-size: 12px;
+    padding-top:1px;
+    cursor: pointer;
+}
+.ctrl_on{
+    color:#5f0080;
+}
+
+.ctrl img{
+    width:10px;
+    height:10px;
+    margin-left:6px;
+    display: flex;
+}
+
+.ctrl_off{
+    display:none;
+}
+
+.category_box{
+    display:none;
+    width:98px;
+    height:264px;
+    position:absolute;
+    top:30px;
+    right:-12px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+}
+
+.ctrl_category{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top:5px;
+}
+
+.ctrl_category>li{
+    height:44px;
+    padding:13px 13px 11px 0;
+}
+
+.ctrl_category>li:hover{
+    color :#5f0080;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
 
 .t11_call{
     width:534px;

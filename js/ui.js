@@ -6,12 +6,21 @@ let category = document.querySelector("#category");
 let category_info = document.querySelector(".category_info");
 let gnb_menu = document.querySelector(".gnb_menu");
 let category_tit = document.querySelector(".category_tit");
+let ctrl = document.querySelector(".ctrl");
+let category_box = document.querySelector(".category_box");
+let ctrl_tit = document.querySelector(".ctrl_tit");
+
+category_box.style.display = "none";
 
 let gnb_menu_list = document.querySelectorAll(".gnb_menu_list");
 const gnb_menu_lists = Array.from(gnb_menu_list);
 
 let t4_menu = document.querySelectorAll(".t4_menu");
 const t4_menu_lists = Array.from(t4_menu);
+
+let ctrl_category = document.querySelector(".ctrl_category");
+let ctrlItems = ctrl_category.querySelectorAll("li");
+let ctrl_items = Array.from(ctrlItems);
 
 menu_info.addEventListener("mouseover", () => {
     subinfo.style.display = "block";
@@ -80,3 +89,24 @@ const checkClicked = (target) => {
         target !== value ? value.classList.remove("t4_menu_on") : value.classList.add("t4_menu_on");
     })
 }
+
+ctrl.addEventListener("click", () => {
+    let ctrlImg = document.querySelectorAll(".ctrl_img");
+    let ctrl_imgs = Array.from(ctrlImg);
+
+    ctrl_imgs.map(value => {
+        value.classList.contains("ctrl_off") ? value.classList.remove("ctrl_off") : value.classList.add("ctrl_off");
+    });
+
+    ctrl_tit.classList.contains("ctrl_on") ? ctrl_tit.classList.remove("ctrl_on") : ctrl_tit.classList.add("ctrl_on");
+    category_box.style.display = category_box.style.display === "none" ? "block" : "none";
+})
+
+ctrl_items.map(value => {
+    value.addEventListener("click", () => {
+        ctrl_tit.innerHTML = value.innerHTML;
+    })
+})
+
+
+
