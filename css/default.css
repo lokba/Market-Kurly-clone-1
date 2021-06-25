@@ -171,7 +171,6 @@ nav{
     align-items: center;
     font-size:14px;
     padding: 0 4px 0 10px;
-    border-right:1px solid #ddd;
 }
 .inner_menu:hover{
     color:#5f0080;
@@ -187,12 +186,13 @@ nav{
 .sub_menu{
     position:absolute;
     top:0;
-    left:224px;
+    left:219px;
     width:219px;
+    height:100%;
     z-index:500;
     color:black;
     display:none;
-    background:white;
+    background:#f7f7f7;
     overflow:hidden;
 }
 .sub_menu > li{
@@ -200,7 +200,7 @@ nav{
     height:39px;
     align-items: center;
     font-size:14px;
-    padding: 0 4px 0 10px;
+    padding: 0 4px 0 20px;
     z-index:600;
 }
 
@@ -545,10 +545,18 @@ nav{
 }
 
 .t4_menu:hover{
+    /* color:white; */
+    color:#5f0080;
+    /* background-color:#5f0080; */
+    font-weight:700;
+}
+
+.t4_menu_on{
     color:white;
     background-color:#5f0080;
     font-weight:700;
 }
+
 
 .t4_bnr{
     display: flex;

@@ -10,6 +10,9 @@ let category_tit = document.querySelector(".category_tit");
 let gnb_menu_list = document.querySelectorAll(".gnb_menu_list");
 const gnb_menu_lists = Array.from(gnb_menu_list);
 
+let t4_menu = document.querySelectorAll(".t4_menu");
+const t4_menu_lists = Array.from(t4_menu);
+
 menu_info.addEventListener("mouseover", () => {
     subinfo.style.display = "block";
 })
@@ -68,3 +71,12 @@ gnb_menu_lists.map(value => value.addEventListener("mouseout", () => {
 }))
 
 
+t4_menu_lists.map(value => value.addEventListener("click", () => {
+    checkClicked(value);
+}));
+
+const checkClicked = (target) => {
+    t4_menu_lists.map(value => {
+        target !== value ? value.classList.remove("t4_menu_on") : value.classList.add("t4_menu_on");
+    })
+}
