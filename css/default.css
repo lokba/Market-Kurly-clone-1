@@ -331,8 +331,9 @@ nav{
     cursor: pointer;
 }
 
-
-
+.menu{
+    cursor:pointer;
+}
 .menu:hover{
     color:#5f0080;
     text-decoration: underline;
@@ -348,7 +349,7 @@ nav{
 #banner_img1{
     width:100%;
     height:100%;
-
+    cursor:pointer;
     display:flex;
     justify-content: center;
 }
@@ -367,6 +368,9 @@ nav{
     text-align:center;
 }
 
+.cursor_tit{
+    cursor:pointer;
+}
 .items_list{
     display:flex;
     justify-content: center;
@@ -388,6 +392,7 @@ nav{
     height:320px;
     width:249px;
     position:relative;
+    cursor: pointer;
     /* overflow:hidden; */
 }
 
@@ -445,6 +450,7 @@ nav{
 .t2_item img{
     width:338px;
     height:338px;
+    cursor: pointer;
 }
 .t2_item img:hover{
     transform: scale(1.02);
@@ -460,6 +466,7 @@ nav{
 
 .t2_sub{
     font-size:16px;
+    cursor: pointer;
     color:#999999;
 }
 
@@ -487,6 +494,7 @@ nav{
 .main_bnr_link img{
     width:100%;
     height:100%;
+    cursor:pointer;
 }
 .type4{
     width:100%;
@@ -552,6 +560,7 @@ nav{
     height:140px;
     width:1050px;
     display: flex;
+    cursor:pointer;
     flex-direction: column;
     justify-content: center;
     padding-left:50px;
@@ -633,6 +642,7 @@ nav{
 .t9_item img{
     width:100%;
     height:100%;
+    cursor:pointer;
 }
 
 
@@ -649,6 +659,7 @@ nav{
 .t10_item img{
     width:100%;
     height:100%;
+    cursor: pointer;
 }
 
 .t10_subinfo{
@@ -664,6 +675,10 @@ nav{
 .question{
     font-weight:400;
     color:#999;
+}
+
+.comment{
+    cursor:pointer;
 }
 
 .type11{
@@ -727,6 +742,7 @@ nav{
     display:flex;
     justify-content: center;
     align-items: center;
+    cursor:pointer;
 }
 
 .t11_info{
@@ -739,6 +755,7 @@ nav{
     padding-bottom:29px;
     color:#333;
     line-height:18px;
+    cursor:pointer;
 }
 .t11_menu span{
     padding-right:16px;
@@ -746,6 +763,7 @@ nav{
 
 .stress{
     color:#5f0080;
+    cursor:pointer;
 }
 .copyright{
     padding-top:16px;
@@ -764,6 +782,7 @@ nav{
 .sns a img{
     width:100%;
     height:100%;
+    cursor:pointer;
 }
 
 footer{
@@ -778,6 +797,7 @@ footer{
     display:flex;
     padding-top:19px;
     padding-right:45.08px;
+    cursor:pointer;
 }
 
 .link_img{
