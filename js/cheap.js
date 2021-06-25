@@ -16,6 +16,12 @@ const gnb_menu_lists = Array.from(gnb_menu_list);
 let t4_menu = document.querySelectorAll(".t4_menu");
 const t4_menu_lists = Array.from(t4_menu);
 
+let ctrl_category = document.querySelector(".ctrl_category");
+let ctrlItems = ctrl_category.querySelectorAll("li");
+let ctrl_items = Array.from(ctrlItems);
+
+category_box.style.display = "none";
+
 menu_info.addEventListener("mouseover", () => {
     subinfo.style.display = "block";
 })
@@ -84,6 +90,23 @@ const checkClicked = (target) => {
     })
 };
 
+ctrl.addEventListener("click", () => {
+    let ctrlImg = document.querySelectorAll(".ctrl_img");
+    let ctrl_imgs = Array.from(ctrlImg);
+
+    ctrl_imgs.map(value => {
+        value.classList.contains("ctrl_off") ? value.classList.remove("ctrl_off") : value.classList.add("ctrl_off");
+    });
+
+    ctrl_tit.classList.contains("ctrl_on") ? ctrl_tit.classList.remove("ctrl_on") : ctrl_tit.classList.add("ctrl_on");
+    category_box.style.display = category_box.style.display === "none" ? "block" : "none";
+})
+
+ctrl_items.map(value => {
+    value.addEventListener("click", () => {
+        ctrl_tit.innerHTML = value.innerHTML;
+    })
+})
 
 
 
