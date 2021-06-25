@@ -428,6 +428,7 @@ nav{
     width:98px;
     height:264px;
     position:absolute;
+    z-index:10;
     top:30px;
     right:-12px;
     background-color: #fff;
@@ -552,10 +553,16 @@ nav{
     width:34px;
     height:34px;
     border:1px solid #ddd;
+    cursor:pointer;
 }
 
 .pageBtn>div:hover{
     background-color:#f7f7f7;
+}
+
+.pageBtnOn{
+    color:#5f0080;
+    font-weight: 800;
 }
 .btntxt{
     padding-top:3px;
