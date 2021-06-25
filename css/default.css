@@ -128,22 +128,88 @@ nav{
 
 #category{
     display:flex;
+    align-items: center;
     font-size:16px;
     width:168px;
     cursor:pointer;
+    height:55px;
 }
 
-#category:hover{
-    color:#5f0080;
-    font-weight: 700;
+.category_info{
+    display:flex;
+    align-items: center;
+    width:168px;
+    height:55px;
 }
 
-#category img{
+.category_info>img{
     width:16px;
     height:14px;
     margin-right:14px;
 }
 
+.gnb_menu{
+    position:absolute;
+    display:none;
+    left:0;
+    top:55px;
+    /* width:440px; */
+    /* width:219px; */
+    z-index:200;
+    color:black;
+    border:1px solid #ddd;
+    background:white;
+    overflow:hidden;
+}
+.gnb_menu>ul>li{
+    display:flex;
+}
+.inner_menu{
+    display:flex;
+    width:219px;
+    height:39px;
+    align-items: center;
+    font-size:14px;
+    padding: 0 4px 0 10px;
+    border-right:1px solid #ddd;
+}
+.inner_menu:hover{
+    color:#5f0080;
+    font-weight:600;
+    background-color:#f7f7f7;
+}
+.i_menu_img{
+    width:24px;
+    height:24px;
+    margin-right:10px;
+}
+
+.sub_menu{
+    position:absolute;
+    top:0;
+    left:224px;
+    width:219px;
+    z-index:500;
+    color:black;
+    display:none;
+    background:white;
+    overflow:hidden;
+}
+.sub_menu > li{
+    display:flex;
+    height:39px;
+    align-items: center;
+    font-size:14px;
+    padding: 0 4px 0 10px;
+    z-index:600;
+}
+
+.sub_menu>li:hover{
+    color:#5f0080;
+    font-weight:600;
+    text-decoration: underline;
+    text-underline-position: under;
+}
 #new{
     width:124px;
 }
@@ -265,51 +331,7 @@ nav{
     cursor: pointer;
 }
 
-.gnb_menu{
-    position:absolute;
-    left:0;
-    top:55px;
-    /* width:440px; */
-    z-index:200;
-    color:black;
-    border:1px solid #ddd;
-    background:white;
-    overflow:hidden;
-}
-.gnb_menu>ul>li{
-    display:flex;
-}
-.inner_menu{
-    display:flex;
-    width:219px;
-    height:39px;
-    align-items: center;
-    font-size:14px;
-    padding: 0 4px 0 10px;
-}
-.i_menu_img{
-    width:24px;
-    height:24px;
-    margin-right:10px;
-}
 
-.sub_menu{
-    width:219px;
-    z-index:500;
-    color:black;
-    display:none;
-    background:white;
-    overflow:hidden;
-    border-left:1px solid #ddd;
-}
-.sub_menu > li{
-    display:flex;
-    height:39px;
-    align-items: center;
-    font-size:14px;
-    padding: 0 4px 0 10px;
-    z-index:600;
-}
 
 .menu:hover{
     color:#5f0080;
