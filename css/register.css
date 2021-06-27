@@ -549,24 +549,127 @@ nav{
     margin-bottom:30px;
 }
 
+.addInfo_hidden>div{
+    font-size:12px;
+}
 #hidden_open{
     height:auto;
 }
 
-/* ------------------------end---------------------------- */
+.agreeBox{
+    border-top:1px solid #333;
+    border-bottom:1px solid #f4f4f4;
+}
+
+.agree_list{
+    display:flex;
+    width:100%;
+    font-size:14px;
+    line-height: 20px;
+    height:auto;
+}
+
+.agree_list_title{
+    width:159px;
+    padding:29px 0 0 20px;
+    font-weight:700;
+    /* padding-top:29px; */
+}
+
+.agree_item{
+    width:481px;
+    padding:0 14px;
+    margin-top:29px;
+    margin-bottom:19px;
+}
+
+.agree_item>li{
+    display:flex;
+}
+
+.agree_item img{
+    width:24px;
+    height:24px;
+    margin-right:12px;
+}
+
+.agree_all{
+    padding-bottom:10px;
+}
+.agreeAll{
+    font-size:18px;
+    font-weight:700;
+    padding-bottom:4px;
+}
+
+.agreeAll_sub{
+    font-size:12px;
+    color:#666;
+    line-height:17px;
+}
+.viewTerm{
+    margin:8px 0;
+}
+.viewTermItem{
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.agreeItem_stress{
+    color:#999999;
+}
+
+.link_term{
+    cursor:pointer;
+    color:#5f0080;
+}
+
+.benefit_item{
+    /* margin:8px 0; */
+    display:flex;
+    flex-direction: column;
+}
+
+.benefit_topItem{
+    display:flex;
+    align-items: center;
+    margin:8px 0;
+}
+
+.agreeType{
+    display:flex;
+    align-items: center;
+    padding:3px 0px 2px 24px;
+}
+
+.agreeType >span{
+    margin-right:80px;
+}
 
 
+.agreeType_sub{
+    margin-left:60px;
+    display:flex;
+    align-items: center;
+}
 
+.agreeType_sub>img{
+    width:16px;
+    height:20px;
+}
 
-
-
-
+.agreeType_sub>div{
+    color:#5f0080;
+    padding-top:8px;
+}
 
 
 .btnBox{
     display:flex;
     flex-direction: column;   
-    margin-top:30px;
+    margin-top:40px;
+    align-items: center;
 }
 .btnBox>a{
     display:block;
@@ -575,7 +678,8 @@ nav{
 .btnBox span{
     display:block;
     border:1px solid #5f0081;
-    height:54px;
+    height:56px;
+    width:240px;
     border-radius:3px;
     text-align:center;
     font-size:16px;
