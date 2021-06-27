@@ -1,2 +1,3 @@
 # Market-Kurly-clone
-clone coding in 컴공선배
+
+1 주차 : html, css, js로만 clone 하기
