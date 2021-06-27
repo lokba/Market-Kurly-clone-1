@@ -365,6 +365,9 @@ nav{
     flex-direction:column;
 } */
 
+
+
+/* ------------------sidemenu------------------------ */
 .side_menu{
     position:absolute;
     right:20px;
@@ -430,6 +433,8 @@ nav{
     padding-bottom:4px;
     cursor: pointer;
 }
+
+/* ------------------sidemenu------------------------ */
 
 .title{
     padding:79px 0 35px;
