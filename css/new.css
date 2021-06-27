@@ -46,6 +46,10 @@ header{
     background-color: #d8d8d8;
 }
 
+.register_link{
+    color:#5f0080;
+}
+
 #login{
     display:flex;
     align-items: center;

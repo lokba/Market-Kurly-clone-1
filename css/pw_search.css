@@ -46,6 +46,10 @@ header{
     background-color: #d8d8d8;
 }
 
+.register_link{
+    color:#5f0080;
+}
+
 #login{
     display:flex;
     align-items: center;
@@ -338,11 +342,6 @@ nav{
     font-weight:700;
 }
 
-
-
-
-/* ------------------start-------------------- */
-
 .loginForm{
     width:340px;
     margin:0 auto;
@@ -362,6 +361,7 @@ nav{
     display:flex;
     flex-direction:column;
 }
+
 .form_tit{
     margin-bottom:7px;
     font-size:12px;
@@ -384,7 +384,6 @@ nav{
     background-color:#fff;
 }
 
-
 .btnBox{
     display:flex;
     flex-direction: column;   
@@ -404,7 +403,6 @@ nav{
     font-weight:500;
     line-height: 51px;
     cursor:pointer;
-    
 }
 
 .loginBtn{
@@ -412,10 +410,6 @@ nav{
     color:white;
     margin-bottom:10px;
 }
-
-
-
-/* ------------------end-------------------- */
 
 .type11{
     padding-top:29px;
