@@ -382,17 +382,29 @@ nav{
     align-items: center;
     padding-bottom:28px;
 }
-.checkbox_save{
-    display:flex;
+
+.clickBox{
+    display: flex;
     align-items: center;
+    cursor:pointer;
 }
 
-.checkbox_save>div{
+.clickBox>div{
     padding-left:3px;
 }
+
+.checkbox_save img{
+    margin-bottom:1px;
+}
+
+.off{
+    display:none;
+}
+
 .login_search{
     color:black;
 }
+
 
 .bar{
     background-color:#333;
