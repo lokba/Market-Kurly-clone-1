@@ -49,6 +49,6 @@ a{
 	color:black;
 }
 
-input{
+input,div{
 	box-sizing: border-box;
 }

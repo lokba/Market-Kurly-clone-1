@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>마켓컬리 :: 내일의 장보기, 마켓컬리</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <link rel="stylesheet" type="text/css" href="css/cart.css">
     <link rel="shortcut icon" href="images/icons/favicon.png" type="image/x-icon">
 </head>
 
@@ -355,54 +355,88 @@
                 <img src="images/icons/ico_search.png">
             </div>
             <div id="location">
-                <img id="location_img" src="images/icons/ico_location.svg">
-
-                <div class="location_subinfo">
-                    <div><span>배송지를 등록</span>하고</div>
-                    <div>구매 가능한 상품을 확인하세요!</div>
-                    <div class="location_btn_box">
-                        <div class="location_loginBtn locationBtn">로그인</div>
-                        <div class="location_addressBtn locationBtn">
-                            <img src="images/icons/ico_search_white.png">
-                            <div>주소검색</div>
-                        </div>
-                    </div>
-                </div>
+                <img id="location_img" src="images/icons/ico_delievery_off.svg">
             </div>
             <a href="cart.html" id="cart">
                 <img src="images/icons/ico_cart.svg">
             </a>
         </nav>
-        <div class="side_menu">
-            <div class="side_menu_img">
-                <img src="images/icons/side_btn.png">
-            </div>
-            <div class="side_menu_box">등급별 혜택</div>
-            <div class="side_menu_box">레시피</div>
-            <div class="side_menu_box">베스트 후기</div>
-            <div class="recent_good">
-                <div class="ico_side">
-                    <img src="images/icons/ico_side_up.png">
-                </div>
-                <div class="recent_good_txt">최근 본 상품</div>
-                <div class="recent_img">
-                    <img src="images/icons/ico_center.jpeg">
-                </div>
-                <div class="ico_side">
-                    <img src="images/icons/ico_side_down.png">
-                </div>
-                <!-- <div class="ico_side">
-                    <img src="images/icons/ico_side_down.png">
-                </div> -->
-            </div>
-        </div>
-
-
 
 
         <!-- -------------------------------start------------------------------------ -->
-        <section>
+        <section class="cartBox">
+            <div class="cartBox_tit">장바구니</div>
+            <div class="cartContentBox">
+                <div class="cartItemContent">
+                    <div class="select_ctrl">
+                        <img src="images/icons/circle_unchecked.svg">
+                        <div class="ctrl_txt">전체선택(0/0)</div>
+                        <div class="bar"></div>
+                        <div class="ctrl_txt">선택삭제</div>
+                    </div>
+                    <div class="show_cart_list applyBorder">
+                        장바구니에 담긴 상품이 없습니다.
+                    </div>
+                    <div class="select_ctrl">
+                        <img src="images/icons/circle_unchecked.svg">
+                        <div>전체선택(0/0)</div>
+                        <div class="bar"></div>
+                        <div>선택삭제</div>
+                    </div>
+                    <div class="show_cart_list">
 
+                    </div>
+                </div>
+                <div class="cartInfoContent">
+                    <div class="cartInfoBox">
+                        <div class="cartInfo_tit">
+                            <img src="images/icons/ico_location.svg">
+                            <div>배송지</div>
+                        </div>
+                        <div class="cartInfo_sub">
+                            <div><span class="stress">배송지를 입력</span>하고</div>
+                            <div>배송유형을 확인해 보세요!</div>
+                            <div class="addr">
+                                <img src="images/icons/register_search.svg">
+                                <div>주소 검색</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="price_lists_box">
+                        <div class="price_lists">
+                            <div class="price_item">
+                                <div>상품금액</div>
+                                <div>0원</div>
+                            </div>
+                            <div class="price_item">
+                                <div>상품할인금액</div>
+                                <div>0원</div>
+                            </div>
+                            <div class="price_item">
+                                <div>배송비</div>
+                                <div>0원</div>
+                            </div>
+                            <div class="total_price_item">
+                                <div>결제예정금액</div>
+                                <div><span>0</span>원</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="storeBtn">상품을 담아주세요</div>
+
+                    <ul class="guide">
+                        <li>
+                            <span>·</span>
+                            <div>'입금확인'상태일 때는, 주문 내역 상세에서 직접 주문취소가 가능합니다.</div>
+                        </li>
+                        <li>
+                            <span>·</span>
+                            <div>'입금확인'이후 상태에는 고객센터로 문의해주세요.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <!-- -------------------------------end------------------------------------ -->
 
