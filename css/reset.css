@@ -49,3 +49,6 @@ a{
 	color:black;
 }
 
+input{
+	box-sizing: border-box;
+}
