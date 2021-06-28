@@ -351,7 +351,7 @@ nav{
 }
 
 .main_bnr_link{
-    width:1045px;
+    width:1050px;
 }
 
 .main_bnr_link img{
@@ -378,6 +378,7 @@ nav{
     width:1021px;
     /* width:870px; */
     margin:0 auto;
+    padding-left:20px;
     padding-top:26px;
 }
 
@@ -548,9 +549,10 @@ nav{
     flex-wrap:wrap;
     /* justify-content: center; */
     /* width:1020px; */
-    width:1020px;
+    width:1050px;
+    padding-left:35px;
     margin:0 auto;
-    
+
 }
 
 .item{

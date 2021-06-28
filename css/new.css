@@ -363,6 +363,7 @@ nav{
     /* width:870px; */
     margin:0 auto;
     padding-top:26px;
+    padding-left:20px;
 }
 
 .tit{
@@ -532,7 +533,8 @@ nav{
     flex-wrap:wrap;
     /* justify-content: center; */
     /* width:1020px; */
-    width:1020px;
+    width:1050px;
+    padding-left:35px;
     margin:0 auto;
     
 }
