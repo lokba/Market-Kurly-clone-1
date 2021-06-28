@@ -49,6 +49,20 @@ category_info.addEventListener("mouseout", () => {
     all_icon.setAttribute('src', 'images/icons/ico_all.png');
 });
 
+let inner_menus = document.querySelectorAll(".inner_menu");
+const inner_menu = Array.from(inner_menus);
+
+inner_menu.map(value => value.addEventListener("mouseover", () => {
+    let all_icon = value.querySelector('img');
+    all_icon.setAttribute('src', 'images/icons/icon_veggies_active_pc@2x.1586324570.png');
+}));
+
+inner_menu.map(value => value.addEventListener("mouseout", () => {
+    let all_icon = value.querySelector('img');
+    all_icon.setAttribute('src', 'images/icons/icon_veggies_inactive_pc@2x.1586324570.png');
+}));
+
+
 // -------------------새로 추가----------------------
 
 

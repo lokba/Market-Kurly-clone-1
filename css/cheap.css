@@ -168,8 +168,8 @@ nav{
     display:flex;
     width:219px;
     height:39px;
-    align-items: center;
     font-size:14px;
+    align-items: center;
     padding: 0 4px 0 10px;
 }
 .inner_menu:hover{
@@ -198,8 +198,8 @@ nav{
 .sub_menu > li{
     display:flex;
     height:39px;
-    align-items: center;
     font-size:14px;
+    align-items: center;
     padding: 0 4px 0 20px;
     z-index:600;
 }
