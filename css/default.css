@@ -166,6 +166,7 @@ nav{
     border:1px solid #ddd;
     background:white;
     overflow:hidden;
+    transition:width 0.2s;
 }
 .gnb_menu>ul>li{
     display:flex;
@@ -177,11 +178,13 @@ nav{
     font-size:14px;
     align-items: center;
     padding: 0 4px 0 10px;
+
 }
 .inner_menu:hover{
     color:#5f0080;
     font-weight:600;
     background-color:#f7f7f7;
+    
 }
 .i_menu_img{
     width:24px;
@@ -210,6 +213,7 @@ nav{
     align-items: center;
     padding: 0 4px 0 20px;
     z-index:600;
+    transition:opacity 5s;
 }
 
 .sub_menu>li:hover{

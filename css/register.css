@@ -160,6 +160,8 @@ nav{
     border:1px solid #ddd;
     background:white;
     overflow:hidden;
+
+    transition:width 0.2s;
 }
 .gnb_menu>ul>li{
     display:flex;
@@ -191,9 +193,11 @@ nav{
     height:100%;
     z-index:500;
     color:black;
-    display:none;
+    display:block;
     background:#f7f7f7;
     overflow:hidden;
+
+
 }
 .sub_menu > li{
     display:flex;

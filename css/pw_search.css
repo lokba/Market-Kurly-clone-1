@@ -162,6 +162,7 @@ nav{
     border:1px solid #ddd;
     background:white;
     overflow:hidden;
+    transition:width 0.2s;
 }
 .gnb_menu>ul>li{
     display:flex;
