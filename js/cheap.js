@@ -20,6 +20,36 @@ let ctrl_category = document.querySelector(".ctrl_category");
 let ctrlItems = ctrl_category.querySelectorAll("li");
 let ctrl_items = Array.from(ctrlItems);
 
+// -------------------새로 추가----------------------
+let location_icon = document.querySelector("#location_img");
+
+location_icon.addEventListener("mouseover", () => {
+    location_icon.setAttribute('src', 'images/icons/ico_delivery_setting_checked.svg');
+});
+location_icon.addEventListener("mouseout", () => {
+    location_icon.setAttribute('src', 'images/icons/ico_location.svg');
+});
+
+let cart_icon = document.querySelector("#cart_img");
+
+cart_icon.addEventListener("mouseover", () => {
+    cart_icon.setAttribute('src', 'images/icons/ico_cart_checked.svg');
+});
+cart_icon.addEventListener("mouseout", () => {
+    cart_icon.setAttribute('src', 'images/icons/ico_cart.svg');
+});
+
+
+let all_icon = document.querySelector("#categoryAll_img");
+
+category_info.addEventListener("mouseover", () => {
+    all_icon.setAttribute('src', 'images/icons/ico_gnb_all_checked.png');
+});
+category_info.addEventListener("mouseout", () => {
+    all_icon.setAttribute('src', 'images/icons/ico_all.png');
+});
+
+// -------------------새로 추가----------------------
 category_box.style.display = "none";
 
 menu_info.addEventListener("mouseover", () => {

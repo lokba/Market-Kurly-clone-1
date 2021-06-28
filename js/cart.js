@@ -16,16 +16,10 @@ const gnb_menu_lists = Array.from(gnb_menu_list);
 let t4_menu = document.querySelectorAll(".t4_menu");
 const t4_menu_lists = Array.from(t4_menu);
 
+let click_box = document.querySelectorAll(".clickBox");
+const clickBox = Array.from(click_box);
+
 // -------------------새로 추가----------------------
-let location_icon = document.querySelector("#location_img");
-
-location_icon.addEventListener("mouseover", () => {
-    location_icon.setAttribute('src', 'images/icons/ico_delivery_setting_checked.svg');
-});
-location_icon.addEventListener("mouseout", () => {
-    location_icon.setAttribute('src', 'images/icons/ico_location.svg');
-});
-
 let cart_icon = document.querySelector("#cart_img");
 
 cart_icon.addEventListener("mouseover", () => {
@@ -46,6 +40,7 @@ category_info.addEventListener("mouseout", () => {
 });
 
 // -------------------새로 추가----------------------
+
 
 menu_info.addEventListener("mouseover", () => {
     subinfo.style.display = "block";
@@ -105,16 +100,13 @@ gnb_menu_lists.map(value => value.addEventListener("mouseout", () => {
 }))
 
 
-t4_menu_lists.map(value => value.addEventListener("click", () => {
+clickBox.map(value => value.addEventListener("click", () => {
     checkClicked(value);
-}));
+}))
 
+console.log(clickBox);
 const checkClicked = (target) => {
-    t4_menu_lists.map(value => {
-        target !== value ? value.classList.remove("t4_menu_on") : value.classList.add("t4_menu_on");
+    clickBox.map(value => {
+        target !== value ? value.classList.remove("off") : value.classList.add("off");
     })
 };
-
-
-
-

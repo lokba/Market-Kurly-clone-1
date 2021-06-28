@@ -147,6 +147,7 @@ nav{
     width:16px;
     height:14px;
     margin-right:14px;
+    margin-bottom:3px;
 }
 
 .gnb_menu{
@@ -341,11 +342,6 @@ nav{
 }
 
 /* -----------------------start------------------------- */
-
-.cartBox{
-
-}
-
 .cartBox_tit{
     width:1050px;
     margin:0 auto;
@@ -519,7 +515,6 @@ nav{
     margin-left :3px;
 }
 /* -----------------------end!!------------------------- */
-
 .type11{
     padding-top:29px;
     padding-bottom:20px;
