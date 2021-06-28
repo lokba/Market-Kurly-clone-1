@@ -16,17 +16,19 @@ const gnb_menu_lists = Array.from(gnb_menu_list);
 let t4_menu = document.querySelectorAll(".t4_menu");
 const t4_menu_lists = Array.from(t4_menu);
 
+let click_box = document.querySelectorAll(".clickBox");
+const clickBox = Array.from(click_box);
 
 // -------------------새로 추가----------------------
 
 let side_menu = document.querySelector('.side_menu');
 
 window.addEventListener('scroll', function (e) {
-    if (window.pageYOffset > 674) {
+    if (window.pageYOffset > 230) {
         side_menu.style.top = `${window.pageYOffset + 250}px`;
     }
     else {
-        side_menu.style.top = `${674}px`;
+        side_menu.style.top = `${230}px`;
     }
 });
 
@@ -72,7 +74,9 @@ inner_menu.map(value => value.addEventListener("mouseout", () => {
     let all_icon = value.querySelector('img');
     all_icon.setAttribute('src', 'images/icons/icon_veggies_inactive_pc@2x.1586324570.png');
 }));
+
 // -------------------새로 추가----------------------
+
 
 menu_info.addEventListener("mouseover", () => {
     subinfo.style.display = "block";
@@ -127,22 +131,18 @@ gnb_menu_lists.map(value => value.addEventListener("mouseout", () => {
     const currentInfo = value.querySelector(".sub_menu");
     const currentParent = value.querySelector(".inner_menu");
     currentInfo.style.display = "none";
-
     currentParent.style.color = "black";
     currentParent.style.fontWeight = "400";
 }))
 
 
-t4_menu_lists.map(value => value.addEventListener("click", () => {
+clickBox.map(value => value.addEventListener("click", () => {
     checkClicked(value);
-}));
+}))
 
+console.log(clickBox);
 const checkClicked = (target) => {
-    t4_menu_lists.map(value => {
-        target !== value ? value.classList.remove("t4_menu_on") : value.classList.add("t4_menu_on");
+    clickBox.map(value => {
+        target !== value ? value.classList.remove("off") : value.classList.add("off");
     })
 };
-
-
-
-

@@ -200,7 +200,9 @@ nav{
     display:none;
     background:#f7f7f7;
     overflow:hidden;
+
 }
+
 .sub_menu > li{
     display:flex;
     height:39px;
@@ -375,9 +377,9 @@ nav{
     right:20px;
     z-index:1;
     width:80px;
-    transition:top 0.2s;
     top:674px;
     font-size:12px;
+    transition: top 0.2s;
 }
 .side_menu_img{
     padding-bottom:7px;

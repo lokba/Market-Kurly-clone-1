@@ -19,6 +19,7 @@ const t4_menu_lists = Array.from(t4_menu);
 let click_box = document.querySelectorAll(".clickBox");
 const clickBox = Array.from(click_box);
 
+
 // -------------------새로 추가----------------------
 let location_icon = document.querySelector("#location_img");
 

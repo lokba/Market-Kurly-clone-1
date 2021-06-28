@@ -467,7 +467,8 @@ nav{
     z-index:1;
     width:80px;
     transition:top 0.2s;
-    top:674px;
+    /* top:674px; */
+    top:230px;
     font-size:12px;
 }
 .side_menu_img{

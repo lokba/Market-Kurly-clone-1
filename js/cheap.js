@@ -62,6 +62,21 @@ inner_menu.map(value => value.addEventListener("mouseout", () => {
     all_icon.setAttribute('src', 'images/icons/icon_veggies_inactive_pc@2x.1586324570.png');
 }));
 
+// -------------------새로 추가----------------------
+
+let side_menu = document.querySelector('.side_menu');
+
+window.addEventListener('scroll', function (e) {
+    if (window.pageYOffset > 230) {
+        side_menu.style.top = `${window.pageYOffset + 250}px`;
+    }
+    else {
+        side_menu.style.top = `${230}px`;
+    }
+});
+
+
+
 
 // -------------------새로 추가----------------------
 category_box.style.display = "none";
